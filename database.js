@@ -2,7 +2,7 @@
 // BANCO DE DADOS — SQLite
 // Cria as tabelas automaticamente se não existirem
 // =============================================
-const sqlite3 = require('sqlite3').verbose();
+const Database = require('better-sqlite3');
 const path = require('path');
 
 // Cria (ou abre) o arquivo do banco de dados
